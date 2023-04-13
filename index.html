@@ -717,8 +717,8 @@
 		let trial = document.querySelector('#trial')
 
 		if (x[1] != undefined) {
-			ck.value = x[1]
-			ckorg.value = x[1]
+			ck.value = atob(x[1])
+			ckorg.value = atob(x[1])
 		}
 
 		trial.value = trialCount
